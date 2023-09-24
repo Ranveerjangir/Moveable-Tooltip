@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(170, 134, 134);
+}
+#wrapper{
+    width: 650px;
+    height: 60px;
+    background-color: rgb(129, 118, 118);
+    position: relative;
+    margin:50px auto;
+    
+}
+ul{
+    display: flex;
+gap: 20px;
+list-style: none;
+padding: 15px;
+margin: 1px;
+
+}
+li a{
+    text-align: center;
+    text-decoration: none;
+   
+    
+}
+li{
+    position: relative;
+}
+span{
+    display: none;
+    position: absolute;
+    bottom: 200px;
+    left: 0;
+    color: black;
+}
